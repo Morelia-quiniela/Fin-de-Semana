@@ -13,8 +13,9 @@ const MatchList = () => {
       id: 1,
       date: '23 AGO',
       time: '19:00',
-      homeTeam: { name: 'Querétaro', logo: '/club/Liga-Mx/queretaro.png' },
+      homeTeam: { name: 'Querétaro', logo: <img src={`${process.env.PUBLIC_URL}/club/Liga-Mx/queretaro.png`} alt="Querétaro" /> },
       awayTeam: { name: 'Cruz Azul', logo: '/club/Liga-Mx/cruzazul.png' }
+
     },
     {
       id: 2,

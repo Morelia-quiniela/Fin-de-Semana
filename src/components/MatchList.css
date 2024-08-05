@@ -1,0 +1,177 @@
+.match-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  background-size: cover;
+  position: relative;
+}
+
+.cost, .deadline {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.467);
+  border-radius: 8px;
+  border: 1px solid #000000;
+  width: 100%;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.match-date, .match-time, .match-stadium {
+  font-weight: bold;
+  margin: 2px 0;
+}
+
+.team,
+.result {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  background-color: #ffffff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.team img {
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.team.selected,
+.result.selected {
+  background-color: #9ee4a0;
+  border-color: #000000;
+}
+
+.result {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.results {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.348);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.results p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.saved-quiniela {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 5px 0;
+  width: 100%;
+  position: relative; 
+}
+
+.saved-quiniela p {
+  margin: 0;
+}
+
+.delete-icon {
+  width: 25x; 
+  height: 25px; 
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #25D366;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1DA851;
+}
+
+.whatsapp-button svg {
+  margin-right: 10px;
+}
+
+.save-button, .clear-button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button {
+  background-color: #008CBA; 
+  color: #ffffff;
+}
+
+.save-button:hover {
+  background-color: #007bb5; 
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.clear-button:hover {
+  background-color: #da190b;
+}
+
+.clear-button svg {
+  margin-right: 5px;
+}
+
+.team img {
+  width: 80px; 
+  height: auto; 
+}

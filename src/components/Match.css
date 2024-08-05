@@ -1,0 +1,114 @@
+.match-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 600px; 
+  margin: 20px auto; 
+}
+
+
+.match {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #f0f0f010; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgb(0, 0, 0); 
+}
+
+.team, .result {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  background-color: #fff
+}
+
+.team img {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 50px;
+  height: 50px;
+}
+
+.team-name {
+  margin-top: 10px;
+}
+
+.team.selected, .result.selected {
+  background-color: #d1e7dd;
+  border-color: #0f5132;
+  transform: scale(1.05);
+}
+
+.result {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.results p {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .match {
+    flex-direction: row; 
+  }
+
+  .team, .result {
+    width: 30%; 
+    margin: 5px 0;
+  }
+
+  .team img {
+    width: 40px;
+    height: 40px;
+  }
+}

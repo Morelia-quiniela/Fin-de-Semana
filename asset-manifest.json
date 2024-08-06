@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Semana-1.git/static/css/main.c12ae064.css",
-    "main.js": "/Semana-1.git/static/js/main.502399d4.js",
-    "static/js/453.43632c84.chunk.js": "/Semana-1.git/static/js/453.43632c84.chunk.js",
-    "static/media/1.png": "/Semana-1.git/static/media/1.ffcf67e63dce571479ae.png",
-    "index.html": "/Semana-1.git/index.html",
-    "main.c12ae064.css.map": "/Semana-1.git/static/css/main.c12ae064.css.map",
-    "main.502399d4.js.map": "/Semana-1.git/static/js/main.502399d4.js.map",
-    "453.43632c84.chunk.js.map": "/Semana-1.git/static/js/453.43632c84.chunk.js.map"
+    "main.css": "/Semana-1/static/css/main.8985f33c.css",
+    "main.js": "/Semana-1/static/js/main.d28c33fe.js",
+    "static/js/453.43632c84.chunk.js": "/Semana-1/static/js/453.43632c84.chunk.js",
+    "static/media/1.png": "/Semana-1/static/media/1.ffcf67e63dce571479ae.png",
+    "index.html": "/Semana-1/index.html",
+    "main.8985f33c.css.map": "/Semana-1/static/css/main.8985f33c.css.map",
+    "main.d28c33fe.js.map": "/Semana-1/static/js/main.d28c33fe.js.map",
+    "453.43632c84.chunk.js.map": "/Semana-1/static/js/453.43632c84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c12ae064.css",
-    "static/js/main.502399d4.js"
+    "static/css/main.8985f33c.css",
+    "static/js/main.d28c33fe.js"
   ]
 }

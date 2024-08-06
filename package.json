@@ -27,7 +27,7 @@
      "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
-  "homepage": "https://Alan-Adacci.github.io/quiniela-morelia",
+  "homepage": "https://github.com/Morelia-quiniela/Semana-1.git",
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className='calichitas'>Quiniela Morelia</h1>
+        {/* <h1 className='calichitas'>Quiniela Morelia</h1> */}
       </header>
       <main>
         <MatchList />

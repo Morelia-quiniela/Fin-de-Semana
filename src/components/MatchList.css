@@ -5,14 +5,28 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  width: 81%;
   max-width: 800px;
   margin: auto;
   background-size: cover;
   position: relative;
 }
+ 
+.letra{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #7e8185;
+  display: inline-block;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0;
+}
 
 .cost, .deadline {
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   margin: 5px 0;
 }
@@ -87,7 +101,7 @@
 .results p {
   margin: 0;
   font-weight: bold;
-  color: #333;
+  color: #232323;
 }
 
 .saved-quiniela {
@@ -174,4 +188,30 @@
 .team img {
   width: 80px; 
   height: auto; 
+}
+input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1.5px solid #4a4747;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #f8f9fa; 
+}
+
+input[type="text"]:focus {
+  border-color: #011c39;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.333);  outline: none; 
+  outline: none;
+  background-color: #ffffff; 
+}
+.logo {
+  display:block;
+  margin: 0 auto;
+  width: 85px; 
+  height: auto;
 }

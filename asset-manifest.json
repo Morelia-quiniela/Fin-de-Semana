@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Fin-de-Semana/static/css/main.4b92439f.css",
-    "main.js": "/Fin-de-Semana/static/js/main.1dbb1c4c.js",
+    "main.js": "/Fin-de-Semana/static/js/main.e8b1161e.js",
     "static/js/453.43632c84.chunk.js": "/Fin-de-Semana/static/js/453.43632c84.chunk.js",
     "static/media/pexels-balon.jpg": "/Fin-de-Semana/static/media/pexels-balon.a3e35f89b1a7d5a0d477.jpg",
     "index.html": "/Fin-de-Semana/index.html",
     "main.4b92439f.css.map": "/Fin-de-Semana/static/css/main.4b92439f.css.map",
-    "main.1dbb1c4c.js.map": "/Fin-de-Semana/static/js/main.1dbb1c4c.js.map",
+    "main.e8b1161e.js.map": "/Fin-de-Semana/static/js/main.e8b1161e.js.map",
     "453.43632c84.chunk.js.map": "/Fin-de-Semana/static/js/453.43632c84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b92439f.css",
-    "static/js/main.1dbb1c4c.js"
+    "static/js/main.e8b1161e.js"
   ]
 }

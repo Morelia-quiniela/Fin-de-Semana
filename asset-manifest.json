@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Fin-de-Semana/static/css/main.df50651f.css",
-    "main.js": "/Fin-de-Semana/static/js/main.bf9054b0.js",
+    "main.js": "/Fin-de-Semana/static/js/main.af5e9cc1.js",
     "static/js/453.43632c84.chunk.js": "/Fin-de-Semana/static/js/453.43632c84.chunk.js",
     "static/media/pexels-mont.jpg": "/Fin-de-Semana/static/media/pexels-mont.aa6aa7ba8aaa95bf3eb6.jpg",
     "index.html": "/Fin-de-Semana/index.html",
     "main.df50651f.css.map": "/Fin-de-Semana/static/css/main.df50651f.css.map",
-    "main.bf9054b0.js.map": "/Fin-de-Semana/static/js/main.bf9054b0.js.map",
+    "main.af5e9cc1.js.map": "/Fin-de-Semana/static/js/main.af5e9cc1.js.map",
     "453.43632c84.chunk.js.map": "/Fin-de-Semana/static/js/453.43632c84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df50651f.css",
-    "static/js/main.bf9054b0.js"
+    "static/js/main.af5e9cc1.js"
   ]
 }

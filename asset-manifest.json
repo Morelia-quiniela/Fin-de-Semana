@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Fin-de-Semana/static/css/main.dac3a079.css",
-    "main.js": "/Fin-de-Semana/static/js/main.b12f58ee.js",
+    "main.css": "/Fin-de-Semana/static/css/main.956dad3e.css",
+    "main.js": "/Fin-de-Semana/static/js/main.ef399167.js",
     "static/js/453.43632c84.chunk.js": "/Fin-de-Semana/static/js/453.43632c84.chunk.js",
-    "static/media/pexels-mont.jpg": "/Fin-de-Semana/static/media/pexels-mont.aa6aa7ba8aaa95bf3eb6.jpg",
+    "static/media/stadium.jpeg": "/Fin-de-Semana/static/media/stadium.da7635d6f468f03ba963.jpeg",
+    "static/media/akron.jpeg": "/Fin-de-Semana/static/media/akron.683fd57d12525a6ae70e.jpeg",
     "index.html": "/Fin-de-Semana/index.html",
-    "main.dac3a079.css.map": "/Fin-de-Semana/static/css/main.dac3a079.css.map",
-    "main.b12f58ee.js.map": "/Fin-de-Semana/static/js/main.b12f58ee.js.map",
+    "main.956dad3e.css.map": "/Fin-de-Semana/static/css/main.956dad3e.css.map",
+    "main.ef399167.js.map": "/Fin-de-Semana/static/js/main.ef399167.js.map",
     "453.43632c84.chunk.js.map": "/Fin-de-Semana/static/js/453.43632c84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dac3a079.css",
-    "static/js/main.b12f58ee.js"
+    "static/css/main.956dad3e.css",
+    "static/js/main.ef399167.js"
   ]
 }
